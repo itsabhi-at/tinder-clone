@@ -1,0 +1,26 @@
+import React from "react";
+import "./header.css";
+// material ui import here
+import { IconButton } from "@material-ui/core";
+// icons here
+import PersonIcon from "@material-ui/icons/Person";
+import WhatshotIcon from "@material-ui/icons/Whatshot";
+import ForumIcon from "@material-ui/icons/Forum";
+
+function Header() {
+  return (
+    <div className="header">
+      <IconButton>
+        <PersonIcon fontSize="large" className="header-icon" />
+      </IconButton>
+      <IconButton>
+        <WhatshotIcon fontSize="large" className="header-icon tinder-icon" />
+      </IconButton>
+      <IconButton>
+        <ForumIcon fontSize="large" className="header-icon" />
+      </IconButton>
+    </div>
+  );
+}
+
+export default Header;
