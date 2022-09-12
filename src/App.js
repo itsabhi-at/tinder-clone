@@ -1,4 +1,5 @@
 import "./App.css";
+import Cards from "./cards/Cards";
 import Header from "./header/Header";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       {/* header here  */}
       <Header />
       {/* tinder cards here  */}
+      <Cards />
       {/* bottom icons here  */}
     </div>
   );

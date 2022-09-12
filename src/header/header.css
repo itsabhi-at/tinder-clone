@@ -6,6 +6,10 @@
     border-bottom: 1px solid #f9f9f9;
 }
 
+.header-icon {
+    padding: 20px;
+}
+
 .tinder-icon {
     color: red;
 }
